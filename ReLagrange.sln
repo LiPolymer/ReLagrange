@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReLagrange", "ReLagrange\ReLagrange.csproj", "{03C82180-E82B-4998-B048-09A4D1507329}"
+	ProjectSection(ProjectDependencies) = postProject
+		{10628E42-05F6-4F60-9FEE-722ACDF34839} = {10628E42-05F6-4F60-9FEE-722ACDF34839}
+		{DBD8E31E-FC4C-474E-9E2A-F420BDEB794E} = {DBD8E31E-FC4C-474E-9E2A-F420BDEB794E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IReLaPluginLib", "IReLaPluginLib\IReLaPluginLib.csproj", "{3D849D68-25C0-43E2-8426-79AABB45CFDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReLaEssential", "ReLaEssential\ReLaEssential.csproj", "{DBD8E31E-FC4C-474E-9E2A-F420BDEB794E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03C82180-E82B-4998-B048-09A4D1507329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C82180-E82B-4998-B048-09A4D1507329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C82180-E82B-4998-B048-09A4D1507329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C82180-E82B-4998-B048-09A4D1507329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D849D68-25C0-43E2-8426-79AABB45CFDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D849D68-25C0-43E2-8426-79AABB45CFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D849D68-25C0-43E2-8426-79AABB45CFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D849D68-25C0-43E2-8426-79AABB45CFDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD8E31E-FC4C-474E-9E2A-F420BDEB794E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD8E31E-FC4C-474E-9E2A-F420BDEB794E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD8E31E-FC4C-474E-9E2A-F420BDEB794E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD8E31E-FC4C-474E-9E2A-F420BDEB794E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
